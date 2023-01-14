@@ -1,0 +1,214 @@
+
+.header-section {
+    margin: 0 auto;
+    width:77%;
+    height:58px;
+    margin-top:55px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.header-button {
+    width:175px;
+    height:58px;
+    border-radius:8px;
+    background-color:#E8EFF2;
+    border:none;
+    cursor:pointer;
+    transition: all ease-in-out 1s;
+}
+
+.section-1 {
+    margin: 0 auto;
+    width:77%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top:83px;
+}
+
+.left-block {
+    width:40%;
+    height:312px;
+    display:flex;
+    flex-direction: column;
+}
+
+.header-left-block {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 56px;
+    color:#162542;
+    width:100%;
+    height:112px;
+}
+
+.paragraph-left-block {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height:26px;
+    color:#7B8BAD;
+    width:100%;
+    height:78px;
+    margin-top:24px;
+}
+
+.left-block-buttons {
+    margin-top:56px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.left-block-button1 {
+    width: 50%;
+    height:58px;
+    border:none;
+    background-color: #F16718;
+    border-radius: 8px;
+    color:#FFFFFF;
+    cursor:pointer;
+    transition: all ease-in-out 1s;
+}
+.left-block-button2 {
+    max-width: 50%;
+    height: 58px;
+    border:none;
+    color: #7B8BAD;
+    background-color:white;
+}
+
+.right-block {
+    width: 48%;
+}
+.photo1 {
+    width:100%;
+    height:480px;
+    border-radius: 20px;
+}
+
+.section-2 {
+    margin: 0 auto;
+    width:77%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section2-block1 {
+    width:65%;
+    display:flex;
+    justify-content: space-between;
+}
+.section2-block2 {
+    width:23%;
+}
+
+.phonephoto {
+    width: 34%;
+    height: 554px;
+    border-radius:15px; 
+    background-image: url("../assets/desktop/image-phone-and-keyboard.jpg");
+    background-size: cover; 
+}
+
+
+.glassphoto {
+    width:61%;
+    height:480px;
+    border-radius:15px;
+}
+
+
+.header-section2 {
+    font-family: 'Barlow', sans-serif;
+    font-weight:900;
+    font-size:32px;
+    line-height:36px;
+    color:#162542;
+    width:255px;
+    height:108px;
+}
+
+.paragraph-section2 {
+    font-family: 'Barlow', sans-serif;
+    font-weight:500;
+    font-size:16px;
+    line-height:26px;
+    color:#7B8BAD;
+    width:255px;
+    height:130px;
+    margin-top:27px;
+}
+
+.section-3 {
+    margin: 0 auto;
+    max-width:1110px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    margin-top:131px;
+}
+
+.block {
+    width:257px;
+    height:323px;
+}
+
+
+.header-block {
+    font-family: 'Barlow', sans-serif;
+    font-weight:900;
+    line-height: 26px; 
+    font-size:24px;
+    color:#162542;
+    width: 255px;
+    height:56px;
+}
+
+.text-block {
+    font-family: 'Barlow', sans-serif;
+    font-weight:500;
+    line-height: 26px; 
+    font-size:16px;
+    color:#7B8BAD;
+    width:255px;
+    height:130px;
+    margin-top:24px;
+}
+
+.fa-tablet-screen-button, .fa-bluetooth, .fa-battery-full, .fa-lightbulb {
+    font-size:62px;
+    margin-bottom:48px;
+    color:#F16718;
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:128px;
+}
+.footer-text {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    line-height: 26px;
+    margin-bottom:39px;
+    color:#7B8BAD;
+}
+
+.span-text {
+    color: black;
+}
+/* transition elements and hover */
+
+.header-button:hover {
+    background-color:#162542;
+}
+
+.left-block-button1:hover {
+    background-color: #FF9B62;
+}
